@@ -14,15 +14,22 @@
 li{
 	list-style-type: none;
 }
+body{
+	max-width: 1366px;
+	overflow-x: hidden;
+	// width: 100%;
+}
 .center{
-	width: 1308px;
+	// max-width: 1366px;
+	width: 100%;
 
 }
 .center-1 ol li{
 
 }
 .center-1 img{
-	width: 1308px;
+	// max-width: 1366px;
+	width: 100%;
 }
 .center11{
 	color: #fff;
@@ -75,8 +82,9 @@ li{
 }
 .center-3{
 	background-image: url(images/ban.jpg);
-	width: 1308px;
+	width: 1368px;
 	height: 500px;
+	overflow-x: hidden;
 	background-size: cover;
 }
 .center-30{
@@ -123,7 +131,8 @@ li{
 	transition: all  ease 0.9s;
 }
 .center-4{
-	
+	width: 1366px;
+	overflow-x: hidden;
 }
 .center-4 .row{
 	margin: 0px;

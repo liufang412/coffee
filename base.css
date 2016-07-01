@@ -15,7 +15,8 @@ li{
 	list-style-type: none;
 }
 header{
-	width: 1308px;
+	width: 1366px;
+	overflow: hidden;
 	padding-top: 1px;
 	background-color: #BA0C2F;
 	height: 271px;
@@ -67,9 +68,10 @@ header{
 
 
 footer{
-	width: 1308px;
+	width: 1366px;
 	height: 300px;
 	background-color: #000;
+	overflow: hidden;
 }
 footer dl{
 	float: left;
